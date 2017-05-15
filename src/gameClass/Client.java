@@ -2,8 +2,8 @@ package gameClass;
 
 public class Client {
 	protected static boolean isRunning = true;
-	protected static int num = 0;
-
+	protected static int PORT;
+	protected static int numConnected;
 	protected Client(){
 		new ClientReader();
 		new ClientSender();
